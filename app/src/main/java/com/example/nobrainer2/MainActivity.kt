@@ -30,6 +30,13 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, OtherGamesActivity::class.java)
                 startActivity(intent)
             }
+
+            chatbtn.setOnClickListener{
+                val intent = Intent(this@MainActivity, ChatAi::class.java)
+                startActivity(intent)
+            }
+
+
         }
 
 
