@@ -6,12 +6,13 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.nobrainer2.BaseActivity
 import com.example.nobrainer2.OwnQuiz.OwnQuizActivity
 import com.example.nobrainer2.R
 import com.example.nobrainer2.databinding.ActivityMainBinding
 import com.example.nobrainer2.databinding.ActivityOtherGamesBinding
 
-class OtherGamesActivity : AppCompatActivity() {
+class OtherGamesActivity : BaseActivity() {
     private var binding: ActivityOtherGamesBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

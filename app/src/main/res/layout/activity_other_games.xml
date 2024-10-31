@@ -26,7 +26,7 @@
         android:backgroundTint="#00AAFF"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:text="Play Snake Game"
+        android:text="@string/play_snake_game"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"

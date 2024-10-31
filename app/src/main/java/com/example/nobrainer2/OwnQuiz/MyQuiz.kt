@@ -6,9 +6,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.nobrainer2.BaseActivity
 import com.example.nobrainer2.databinding.ActivityMyQuizBinding
 
-class MyQuiz : AppCompatActivity() {
+class MyQuiz : BaseActivity() {
     private lateinit var quizViewModel: QuizViewModel
     private lateinit var binding: ActivityMyQuizBinding
 

@@ -8,11 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import com.example.nobrainer2.BaseActivity
 import com.example.nobrainer2.R
 import com.example.nobrainer2.databinding.ActivityPlayQuizBinding
 import kotlinx.coroutines.launch
 
-class PlayQuizActivity : AppCompatActivity() {
+class PlayQuizActivity : BaseActivity() {
     private lateinit var quizViewModel: QuizViewModel
     private lateinit var quiz: Quiz
     private var currentQuestionIndex = 0

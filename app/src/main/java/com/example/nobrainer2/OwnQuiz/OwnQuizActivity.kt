@@ -4,9 +4,10 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.nobrainer2.BaseActivity
 import com.example.nobrainer2.databinding.ActivityOwnQuizBinding
 
-class OwnQuizActivity : AppCompatActivity() {
+class OwnQuizActivity : BaseActivity() {
     private lateinit var quizViewModel: QuizViewModel
     private lateinit var binding: ActivityOwnQuizBinding
     private val questions = mutableListOf<Question>()

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoBRainer2</string>
+    <string name="app_settings">Faka umbuzo wakho</string>
+    <string name="edit_user_profile">Hlela iphrofayela yomsebenzisi</string>
+    <string name="dark_mode">Indlela emnyama</string>
+    <string name="light_mode">Indlela Yokukhanya</string>
+    <string name="languages">Izilimi</string>
+    <string name="offline_mode_feature_in_dev_poe3">Isici semodi engaxhunyiwe ku-intanethi ku-Dev POE3</string>
+    <string name="user_manual">Ibhukwana lomsebenzisi</string>
+    <string name="logout">Phuma</string>
+    <string name="delete_quiz">Susa i-Quiz</string>
+    <string name="next">Okulandelayo</string>
+    <string name="create_your_quiz">Dala i-Quiz yakho</string>
+    <string name="enter_your_question">Faka umbuzo wakho</string>
+    <string name="enter_option_1">Faka inketho 1</string>
+    <string name="enter_option_2">Faka inketho 2</string>
+    <string name="enter_in_your_quiz_name">Faka igama lakho le-Quiz</string>
+    <string name="enter_option_3">Faka inketho 3</string>
+    <string name="enter_option_4">Faka inketho 4</string>
+    <string name="correct_answer_1_4">Impendulo Efanele (1-4)</string>
+    <string name="next_question">Umbuzo olandelayo</string>
+    <string name="save_quiz">Gcina i-Quiz</string>
+    <string name="play_snake_game">Dlala Snake Game</string>
+    <string name="hi_deadpool">Hi, Deadpool</string>
+    <string name="_2400">2400</string>
+    <string name="create_quiz">Dala i-Quiz</string>
+    <string name="other_games">Eminye imidlalo</string>
+    <string name="chat_ai">Xoxa AI</string>
+    <string name="quiz_categories">Izigaba ze-Quiz</string>
+    <string name="science">Isayensi</string>
+    <string name="history">Umlando</string>
+    <string name="sport">Ezemidlalo</string>
+    <string name="my_quiz">Imibuzo yami</string>
+    <string name="general">Jwayelekile</string>
+    <string name="question">Umbuzo</string>
+    <string name="response">Impendulo</string>
+    <string name="enter_your_query">Faka umbuzo wakho</string>
+    <string name="notification_title">Isikhathi sokudlala</string>
+    <string name="notification_text">Ufuna ukuhlola ulwazi lwakho?</string>
+    <string name="channel_name">Isiteshi seNoBrainer</string>
+    <string name="channel_description">Izaziso zohlelo lokusebenza kweNoBrainer quiz</string>
+</resources>

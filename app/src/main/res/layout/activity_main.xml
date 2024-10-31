@@ -43,7 +43,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Hi, Deadpool"
+                    android:text="@string/hi_deadpool"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -66,7 +66,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"
                         android:layout_marginEnd="4dp"
-                        android:text="2400"
+                        android:text="@string/_2400"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
@@ -103,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Create Quiz"
+                        android:text="@string/create_quiz"
                         android:textColor="@color/white"
                         android:textAlignment="center" />
                 </LinearLayout>
@@ -127,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Other Games"
+                        android:text="@string/other_games"
                         android:textColor="@color/white"
                         android:textAlignment="center" />
                 </LinearLayout>
@@ -151,7 +151,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Chat AI"
+                        android:text="@string/chat_ai"
                         android:textColor="@color/white"
                         android:textAlignment="center" />
                 </LinearLayout>
@@ -161,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Quiz Categories"
+                android:text="@string/quiz_categories"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="20sp" />
@@ -191,7 +191,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="Science"
+                        android:text="@string/science"
                         android:textColor="@color/white"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -199,6 +199,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
+                    android:id="@+id/btn"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:background="@drawable/navy_background"
@@ -215,7 +216,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="History"
+                        android:text="@string/history"
                         android:textColor="@color/white"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -239,7 +240,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="Sport"
+                        android:text="@string/sport"
                         android:textColor="@color/white"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -264,7 +265,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="My Quiz"
+                        android:text="@string/my_quiz"
                         android:textColor="@color/white"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -291,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="General"
+                        android:text="@string/general"
                         android:textColor="@color/white"
                         android:textSize="17sp"
                         android:textStyle="bold" />
